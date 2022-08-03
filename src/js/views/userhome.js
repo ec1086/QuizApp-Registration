@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 export const UserHome = () => {
     return (
 <div> 
-Quizzes 
+< Link to="/quiz">
+<button type="submit" className="btn btn-primary mt-2">Quiz 1</button>
+</Link>
 </div>
 )};
